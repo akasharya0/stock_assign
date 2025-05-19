@@ -142,3 +142,14 @@ ul li {
 .section-container:nth-child(2) {
     background-color: #130513;
 }
+@media (max-width: 600px){
+  .cards{
+   margin-top: 0;
+    text-align: center;
+  display: grid;
+  justify-content: center;
+}
+.card_details{
+  width: 30vw;
+}
+}
